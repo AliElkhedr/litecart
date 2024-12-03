@@ -111,7 +111,7 @@
       <?php } ?>
 
       <li>
-        <a href="<?php echo document::href_ilink(''); ?>" title="<?php echo functions::escape_html(language::translate('title_frontend', 'Frontend')); ?>">
+        <a href="<?php echo document::href_ilink(''); ?>" target="_blank" title="<?php echo functions::escape_html(language::translate('title_frontend', 'Frontend')); ?>">
           <?php echo functions::draw_fonticon('fa-desktop'); ?> <?php echo language::translate('title_frontend', 'Frontend'); ?>
         </a>
       </li>
